@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Righteous&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.list {
+  list-style: none;
+}
+
+.main-display-area {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: calc(100vh - 201px);
+}
+
+.margin-section {
+  min-height: calc(100vh - 265px);
+}
+
+@media(max-width: 992px) {
+  .App {
+    margin-bottom: 80px;
+  }
+}
+
+.link {
+  color: #0000008c;
+}
+
+.link:hover {
+  color: #000000b3;
+}
